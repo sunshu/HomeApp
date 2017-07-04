@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
         CommonOkHttpClient.sendRequest(CommonRequest.createGetRequest("",null),new CommonJsonCallback(new DisposeDataListener() {
             @Override
             public void onSuccess(Object responseObj) {
-                
+
             }
 
             @Override
